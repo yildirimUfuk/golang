@@ -4,46 +4,14 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
+	mypackage "golangTutorial/myPackage"
 	"os"
 	"strconv"
 	"strings"
 )
 
-type myIf interface {
-	firstFunc()
-	secondFunc()
-}
-
-type obj1 struct {
-	name    string
-	surname string
-}
-
-func (x *obj1) firstFunc() {
-	fmt.Println("first func for obj1")
-}
-func (x *obj1) secondFunc() {
-	fmt.Println("second func for obj2")
-}
-
-type obj2 struct {
-	city string
-}
-
-func (x *obj2) firstFunc() {
-	fmt.Println("first func for obj2")
-}
-func (x *obj2) secondFunc() {
-	fmt.Println("second func for obj2")
-}
-
-func globalFunc(x myIf) {
-	x.firstFunc()
-}
 func main() {
-	// x := obj1{"ufuk", "yildirim"}
-	y := obj2{"city"}
-	globalFunc(&y)
+	fmt.Println(mypackage.MyPackageFunc())
 }
 
 //pointers example begin
