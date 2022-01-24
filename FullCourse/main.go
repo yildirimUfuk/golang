@@ -8,10 +8,13 @@ import (
 	"os"
 	"strconv"
 	"strings"
+
+	"rsc.io/quote"
 )
 
 func main() {
 	fmt.Println(myPackage.MyPackageFunc())
+	fmt.Println(quote.Go())
 }
 
 //pointers example begin
