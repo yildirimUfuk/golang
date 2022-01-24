@@ -1,4 +1,4 @@
-package mypackage
+package myPackage
 
 // Example function for creating and using package.
 // This comment comes from implementation of function

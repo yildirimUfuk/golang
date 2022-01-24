@@ -4,14 +4,14 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	mypackage "golangTutorial/myPackage"
+	"golangTutorial/myPackage"
 	"os"
 	"strconv"
 	"strings"
 )
 
 func main() {
-	fmt.Println(mypackage.MyPackageFunc())
+	fmt.Println(myPackage.MyPackageFunc())
 }
 
 //pointers example begin
