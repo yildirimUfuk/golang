@@ -1,0 +1,4 @@
+mode: set
+golangTutorial/myPackage/myPackage.go:5.44,7.12 2 1
+golangTutorial/myPackage/myPackage.go:10.2,11.20 2 1
+golangTutorial/myPackage/myPackage.go:7.12,9.3 1 1

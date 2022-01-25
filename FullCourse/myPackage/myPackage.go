@@ -1,9 +1,14 @@
 package myPackage
 
-// Example function for creating and using package.
-// This comment comes from implementation of function
-func MyPackageFunc() string {
-	return "this returned from myPackageFunc() function"
+import "errors"
+
+func Divide(x, y float64) (float64, error) {
+	var result float64
+	if y == 0 {
+		return result, errors.New("connot divide by 0")
+	}
+	result = x / y
+	return result, nil
 }
 
 /*
