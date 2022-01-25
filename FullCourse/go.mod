@@ -15,6 +15,7 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	rsc.io/quote v1.5.2
+	rsc.io/quote v1.5.2 // indirect
 	rsc.io/sampler v1.99.99 // indirect
+
 )

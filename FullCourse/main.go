@@ -1,5 +1,7 @@
 package main
 
+import httppackage "golangTutorial/httpPackage"
+
 func main() {
-	GlobalGinFunc()
+	httppackage.HttpMain()
 }
