@@ -27,8 +27,8 @@ func TestBadDivide(t *testing.T) {
 } //
 //end of first aproach.
 
-// SECOND APROACH
-// this is better than first one.
+// to use second aproach test method.
+// testing data.
 var tests = []struct {
 	name     string
 	divident float64
@@ -40,6 +40,8 @@ var tests = []struct {
 	{"dividing by zero error", 5.1, 0.0, 0, true},
 }
 
+// SECOND APROACH
+// this is better than first one.
 func TestDivision(t *testing.T) {
 	for _, tt := range tests {
 		got, err := myPackage.Divide(tt.divident, tt.divisor)
