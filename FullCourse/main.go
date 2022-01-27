@@ -1,7 +1,9 @@
 package main
 
-func main() {
+import "golangTutorial/cmd/web"
 
+func main() {
+	web.HttpMain()
 }
 
 var portNumber = ":8080"
