@@ -1,4 +1,4 @@
-{{template "base"}}
+{{template "base" .}}
 
 {{define "content"}}
 <div class="container">
@@ -6,6 +6,7 @@
         <dic class="col">
             <h1>About Page</h1>
             <p>this is the text</p>
+            <p>this came from the template: {{index .StringMap "test"}}</p>
         </dic>
     </div>
 </div>
