@@ -3,6 +3,7 @@ module golangTutorial
 go 1.13
 
 require (
+	github.com/alexedwards/scs/v2 v2.5.0
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/go-playground/validator/v10 v10.10.0 // indirect

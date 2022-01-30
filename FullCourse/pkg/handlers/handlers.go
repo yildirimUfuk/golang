@@ -36,7 +36,9 @@ func (m *Repository) Home(w http.ResponseWriter, r *http.Request) {
 func (m *Repository) About(w http.ResponseWriter, r *http.Request) {
 	stringMap := make(map[string]string)
 	stringMap["test"] = "Hello Again"
+
 	render.RenderTemplate(w, "about.page.go.html", &models.TemplateData{
 		StringMap: stringMap,
 	})
+
 }
