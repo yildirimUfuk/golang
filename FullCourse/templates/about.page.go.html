@@ -7,6 +7,13 @@
             <h1>About Page</h1>
             <p>this is the text</p>
             <p>this came from the template: {{index .StringMap "test"}}</p>
+            <p>
+                {{if ne (index .StringMap "remoteIP") ""}}
+                    your remote ip addres is {{index .StringMap "remoteIP"}}
+                {{else}}
+                    dont know yout ip adress yet. Visit the <a href="/">Home Page</a> so I can set it.
+                {{end}}
+            </p>
         </dic>
     </div>
 </div>
