@@ -44,11 +44,18 @@ func structEx() {
 
 	// fmt.Println(myStruct4)
 
-	////////////Anonim struct//////////
-	myStruct5 := struct {
-		name    string
-		surname string
-	}{name: "struct name", surname: "struct surname"}
+	// ////////////Anonim struct//////////
+	// myStruct5 := struct {
+	// 	name    string
+	// 	surname string
+	// }{name: "struct name", surname: "struct surname"}
+	// fmt.Println(myStruct5)
 
-	fmt.Println(myStruct5)
+	//////////////////////
+	type nodeStruct struct {
+		x int
+		y int
+	}
+	obj := nodeStruct{x: 5, y: 10}
+	fmt.Println(obj)
 } //struct example end
