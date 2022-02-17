@@ -7,8 +7,36 @@ import (
 
 func main() {
 	// web.HttpMain()
-	digits := []int{1, 2, 5, 7, 9, -10}
-	threeSum(digits)
+	// digits := []int{1, 2, 5, 7, 9, -10}
+	// threeSum(digits)
+
+
+// 	#include<iostream>
+// #include<vector>
+// std::string deleteSubStr(std::string str, const std::string &subStr);
+// int main(){
+//     deleteSubStr("AAWSWS","AWS");
+// }
+// std::string deleteSubStr(std::string str, const std::string &subStr){
+//     std::vector<int>walk;
+//     auto subItr=subStr.begin();
+//     int counter{0};
+//     for(size_t i=0;i<str.size();i++){
+//        while (str[i]==*subItr && counter<subStr.length())
+//         {
+//             walk.push_back(counter++);
+//             ++subItr;
+//         }
+//         if(counter==subStr.length()-1){
+//             str.erase(str[i-counter-1],subStr.size()-1);
+//         }
+//         counter=0;
+//         subItr=subStr.begin();
+//     }
+//     return str.empty()?"-1":str;
+
+
+}
 
 }
 
